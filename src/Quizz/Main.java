@@ -23,5 +23,7 @@ public class Main {
         Question[] questions = QuestionInitializer.initializeQuestions();
 
         QuestionsTime.questionsTime(questions, player1, player2, scanner);
+
+        EndGame.endGame(player1, player2);
     }
 }
