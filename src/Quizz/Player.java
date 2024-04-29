@@ -13,7 +13,10 @@ public class Player extends Person {
     }
 
     public void setScore(int score) {
-        this.score += score;
+        this.score = score;
     }
    
+    public void sunScore(int score) {
+        this.score += score;
+    }
 }
