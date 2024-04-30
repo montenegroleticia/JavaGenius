@@ -16,7 +16,7 @@ public class Player extends Person {
         this.score = score;
     }
    
-    public void sunScore(int score) {
+    public void sumScore(int score) {
         this.score += score;
     }
 }
