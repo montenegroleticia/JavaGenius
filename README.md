@@ -1,18 +1,11 @@
-## Getting Started
+```bash
+     _                   ____            _           
+    | | __ ___   ____ _ / ___| ___ _ __ (_)_   _ ___ 
+ _  | |/ _` \ \ / / _` | |  _ / _ \ '_ \| | | | / __|
+| |_| | (_| |\ V / (_| | |_| |  __/ | | | | |_| \__ \
+ \___/ \__,_| \_/ \__,_|\____|\___|_| |_|_|\__,_|___/
+```
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### JavaGenius - Desafie seu Conhecimento em Java!
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Que tal um desafio empolgante e educativo? Apresento o nosso jogo interativo para dois jogadores, onde vocês podem testar seus conhecimentos sobre a linguagem de programação Java! Preparem-se para um quiz cheio de perguntas desafiadoras e quem responder corretamente mais questões será o grande vencedor! Estão prontos para mostrar quem é o gênio do Java?
