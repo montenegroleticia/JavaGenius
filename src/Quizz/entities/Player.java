@@ -1,4 +1,4 @@
-package Quizz;
+package Quizz.entities;
 
 public class Player extends Person {
     private int score;

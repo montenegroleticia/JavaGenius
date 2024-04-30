@@ -1,5 +1,8 @@
-package Quizz;
+package Quizz.utils;
 import java.util.Scanner;
+
+import Quizz.entities.Question;
+import Quizz.entities.Player;
 
 public class QuestionsTime {
     public static void questionsTime(Question[] questions, Player player1, Player player2, Scanner scanner) {

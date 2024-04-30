@@ -1,4 +1,4 @@
-package Quizz;
+package Quizz.entities;
 
 public class Person {
     protected String name;

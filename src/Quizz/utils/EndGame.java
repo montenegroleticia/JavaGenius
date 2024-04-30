@@ -1,4 +1,6 @@
-package Quizz;
+package Quizz.utils;
+
+import Quizz.entities.Player;
 
 public class EndGame {
     public static void endGame(Player player1, Player player2) {
