@@ -18,7 +18,7 @@ public class Main {
         String player2Name = scanner.nextLine();
         Player player2 = new Player(player2Name, 0);
 
-        System.out.println("Vamos começar o jogo! O jogador " + player1.getName() + " joga primeiro e depois o " + player2.getName() + ".");
+        System.out.println("Vamos começar o jogo! O jogador " + player1.getName() + " joga primeiro e depois " + player2.getName() + ".");
 
         Question[] questions = QuestionInitializer.initializeQuestions();
 

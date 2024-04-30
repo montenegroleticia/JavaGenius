@@ -13,11 +13,10 @@ public class QuestionsTime {
             }
             System.out.print("Escolha uma opção: ");
             int chosenOption = scanner.nextInt();
-            scanner.nextLine();
 
             if (chosenOption == question.getCorrectAnswer()) {
                 System.out.println("Resposta correta! Você ganhou 1 ponto.");
-                currentPlayer.setScore(currentPlayer.getScore() + 1);
+                currentPlayer.sunScore(1);
             } else {
                 System.out.println("Resposta incorreta! A resposta correta era a opção " + question.getCorrectAnswer() + ": " + options[question.getCorrectAnswer() - 1]);
             }
