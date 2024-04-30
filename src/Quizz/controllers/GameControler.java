@@ -1,12 +1,14 @@
-package Quizz.utils;
+package Quizz.controllers;
 
 import java.util.Scanner;
 
 import Quizz.entities.Player;
 import Quizz.entities.Question;
 import Quizz.repositories.QuestionRepository;
+import Quizz.utils.EndGame;
+import Quizz.utils.QuestionsTime;
 
-public class StartGame {
+public class GameControler {
     public static void startGame() {
         Scanner scanner = new Scanner(System.in);
 

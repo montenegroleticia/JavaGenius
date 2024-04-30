@@ -1,9 +1,9 @@
 package Quizz;
 
-import Quizz.utils.StartGame;
+import Quizz.controllers.GameControler;
 
 public class Main {
     public static void main(String[] args) {
-        StartGame.startGame();
+        GameControler.startGame();
     }
 }
