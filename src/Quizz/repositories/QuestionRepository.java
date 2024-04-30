@@ -1,6 +1,8 @@
-package Quizz;
+package Quizz.repositories;
 
-public class QuestionInitializer {
+import Quizz.entities.Question;
+
+public class QuestionRepository {
     public static Question[] initializeQuestions() {
         Question[] questions = new Question[10];
 
