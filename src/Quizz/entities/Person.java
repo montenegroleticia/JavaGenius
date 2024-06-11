@@ -1,7 +1,7 @@
 package Quizz.entities;
 
-public class Person {
-    protected String name;
+public abstract class Person {
+    public String name;
 
     public Person(String name) {
         this.name = name;
