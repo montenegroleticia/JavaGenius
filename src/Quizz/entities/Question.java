@@ -1,8 +1,6 @@
 package Quizz.entities;
 
-import Quizz.interfaces.InterfaceQuestion;
-
-public class Question implements InterfaceQuestion {
+public class Question {
     private String question;
     private String[] options;
     private int correctAnswer;
@@ -12,18 +10,12 @@ public class Question implements InterfaceQuestion {
         this.options = options;
         this.correctAnswer = correctAnswer;
     }
-
-    @Override
     public String getQuestion() {
         return question;
     }
-
-    @Override
     public String[] getOptions() {
         return options;
     }
-
-    @Override
     public int getCorrectAnswer() {
         return correctAnswer;
     }
