@@ -1,10 +1,11 @@
 package Quizz.repositories;
 
 import Quizz.entities.Question;
+import Quizz.interfaces.InterfaceQuestion;
 
 public class QuestionRepository {
-    public static Question[] initializeQuestions() {
-        Question[] questions = new Question[10];
+    public static InterfaceQuestion[] initializeQuestions() {
+        InterfaceQuestion[] questions = new InterfaceQuestion[10];
 
         questions[0] = new Question(
                 "Qual é a palavra-chave utilizada para indicar que um método não retornará nenhum valor?",
