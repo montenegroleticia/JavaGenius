@@ -1,9 +1,9 @@
 package Quizz.utils;
 
-import Quizz.entities.Player;
+import Quizz.interfaces.InterfacePlayer;
 
 public class EndGame {
-    public static void endGame(Player player1, Player player2) {
+    public static void endGame(InterfacePlayer player1, InterfacePlayer player2) {
         System.out.println("\nPontuação final:");
         System.out.println(player1.getName() + ": " + player1.getScore());
         System.out.println(player2.getName() + ": " + player2.getScore());
