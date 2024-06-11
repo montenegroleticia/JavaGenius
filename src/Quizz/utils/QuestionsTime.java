@@ -2,13 +2,13 @@ package Quizz.utils;
 
 import java.util.Scanner;
 
+import Quizz.entities.Question;
 import Quizz.interfaces.InterfacePlayer;
-import Quizz.interfaces.InterfaceQuestion;
 
 public class QuestionsTime {
-    public static void questionsTime(InterfaceQuestion[] questions, InterfacePlayer player1, InterfacePlayer player2, Scanner scanner) {
+    public static void questionsTime(Question[] questions, InterfacePlayer player1, InterfacePlayer player2, Scanner scanner) {
         InterfacePlayer currentPlayer = player1;
-        for (InterfaceQuestion question : questions) {
+        for (Question question : questions) {
             System.out.println("\n" + currentPlayer.getName() + ", responda à seguinte pergunta:");
             System.out.println(question.getQuestion());
             String[] options = question.getOptions();

@@ -9,17 +9,14 @@ public class Player extends Person implements InterfacePlayer {
         super(name);
         this.score = score;   
     }
-
     @Override
     public int getScore() {
         return score;
     }
-
     @Override
     public void setScore(int score) {
         this.score = score;
     }
-
     @Override
     public void sumScore(int score) {
         this.score += score;
