@@ -12,7 +12,9 @@ import Quizz.utils.QuestionsTime;
 public class GameControler {
     public static void startGame() {
         Scanner scanner = new Scanner(System.in);
+        Player locutor = new Player();
 
+        locutor.Cumprimentar();
         System.out.println("Nome do primeiro jogador: ");
         String player1Name = scanner.nextLine();
         InterfacePlayer player1 = new Player(player1Name, 0);
@@ -20,8 +22,9 @@ public class GameControler {
         System.out.println("Nome do segundo jogador: ");
         String player2Name = scanner.nextLine();
         InterfacePlayer player2 = new Player(player2Name, 0);
-
+        
         System.out.println("Vamos começar o jogo! O jogador " + player1.getName() + " joga primeiro e depois " + player2.getName() + ".");
+
 
         Question[] questions = QuestionRepository.initializeQuestions();
 
